@@ -1,274 +1,209 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spider | Movies</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'rel="stylesheet">
-    <link rel="icon" href="files/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="files/favicon/favicon_io/favicon.ico">
+    <title>Spider Movies</title>
 </head>
+
 <body>
     <header>
-        <a href="#" class="logo">
-            <i class='bx bx-camera-movie'></i> Spider Movies
-        </a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        
-        <ul class="navbar">
-            <li><a href="#home" class="home-active">Home</a></li>
-            <li><a href="#movies">Filmes</a></li>
-            <li><a href="#coming">Em breve</a></li>
-            <li><a href="#newsletter">CineMundo</a></li>
-        </ul>
-        <a href="login.html " target="_blank" class="btn">Entrar</a>
+        <img src="files/img/Spider-Movies-10-03-2025.png" alt="">
+        <nav class="nav-container">
+            <ul>
+                <li class="nav-items"><a href="">home</a></li>
+                <li class="nav-items"><a href="">series</a></li>
+                <li class="nav-items"><a href="">filmes</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="home swiper" id="home">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide conatiner">
-                <img src="files/img/cards/home1.jpg" alt="">
-                <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Venom: Que Haja  <br> Carnificina</h1>
-                    <a href="Venom.html" target="_blank" class="btn">Assistir</a>
-                   
+    <section class="container">
+        <div class="list">
+           
+            <div class="item active">
+                <div class="movies-img">
+                    <img src="files/img/spider.png.png" alt="imagem spider">
                 </div>
-               
-              </div>
-              
-              <div class="swiper-slide conatiner" >
-                <img src="files/img/cards/home5.jfif" alt="">
-                <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Vingadores: <br> Ultimato</h1>
-                    <a href="vingadores.html" target="_blank" class="btn">Assistir</a>
-                   
+                <div class="content">
+                    <p class="spider-information">Miles Morales - no aranha-verso</p>
+                    <h2>O Homem Aranha</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum recusandae natus neque quaerat sed in dolorum inventore aspernatur? Quas impedit maxime laudantium itaque libero sapiente amet neque et quaerat!</p>
+                    <button class="information" onclick="window.location.href='#'">Assistir</button>
                 </div>
-                
-              </div>
+            </div>
+            <div class="item">
+                <div class="movies-img">
+                    <img src="files/img/carros.com (4).png" alt="imagem carros">
+                </div>
+                <div class="content">
+                    <p class="spider-information">McQueen</p>
+                    <h2>Carros 2</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum recusandae natus neque quaerat sed in dolorum inventore aspernatur? Quas impedit maxime laudantium itaque libero sapiente amet neque et quaerat!</p>
+                    <button class="information" onclick="window.location.href='#'">Assistir</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="movies-img">
+                    <img src="files/img/naruto.png" alt="imagem naruto">
+                </div>
+                <div class="content">
+                    <p class="spider-information">Naruto</p>
+                    <h2>Naruto Shippuden</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum recusandae natus neque quaerat sed in dolorum inventore aspernatur? Quas impedit maxime laudantium itaque libero sapiente amet neque et quaerat!</p>
+                    <button class="information" onclick="window.location.href='#'">Assistir</button>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><img src="files/img/arrows.png-removebg-preview.png" alt="setas"></button>
+            <button id="next"><img src="files/img/arrows.png-removebg-preview.png" alt="setas"></button>
+        </div>
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <script src="scripts.js"></script>
+    </section>
 
-              <div class="swiper-slide conatiner" >
-                <img src="files/img/cards/home3.jpg" alt="">
-                <div class="home-text">
-                    <span>Marvel Universe</span>
-                    <h1>Homem-Aranha: <br> De volta ao lar</h1>
-                    <a href="Spider.html" target="_blank" class="btn">Assistir</a>
-                </div>
-              </div>              
-        </section>
-<main>
-<section class="movies" id="movies">
-    <h2 class="heading">Laçamentos da Semana</h2>
-            <div class="movies-container">
-                    <div class="box">    
-                    <div class="box-img">
-                        <img src="files/img/cards/m1.jpg" alt="">
+    <main>
+     
+        <div class="principal">
+            <h1>ESCOLHA O MELHOR PLANO PARA VOCÊ</h1>
+            <p>ECONOMIZE ATÉ 36%</p>
+            <div class="planos">
+                <button class="mensal">MENSAL</button>
+                <button class="anual">ANUAL PARCELADO</button>
+            </div>
+        </div>
+        
+        <div class="cards-container">
+         
+            <div class="cards">
+                <h3>Básico com Anúncios</h3>
+                <div>
+                    <p>2 dispositivos ao mesmo tempo<br>Resolução Full HD</p>
+                    <span>12x R$18,90/mês</span>
+                    <p>Preço total anual R$226,80</p>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
                     </div>
-                    <h3>Venom</h3>
-                    <span>120 min | Ação</span>
-                </div>            
-            
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m2.jpg" alt="">
                 </div>
-                <h3>Dunkerk</h3>
-                <span>120 min | Aventura</span>
             </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m3.jpg" alt="">
+            <div class="cards">
+                <h3>Standard</h3>
+                <div>
+                    <p>2 dispositivos ao mesmo tempo<br>Resolução Full HD<br>30 downloads para curtir off-line</p>
+                    <span>12x R$29,90/mês</span>
+                    <p>Preço total anual R$358,80</p>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
+                    </div>
                 </div>
-                <h3>Batman Vs Superman</h3>
-                <span>120 min | Hérois</span>
             </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m4.jpg" alt="">
+            <div class="cards">
+                <h3>Platinum</h3>
+                <div>
+                    <p>4 dispositivos ao mesmo tempo<br>Resolução Full HD e 4K Ultra HD<br>Aúdio Dolby Atmos<br>100 downloads para curtir off-line</p>
+                    <span>12x R$39,90/mês</span>
+                    <p>Preço total anual R$478,80</p>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
+                    </div>
                 </div>
-                <h3>John Wick 2</h3>
-                <span>120 min | Ação</span>
             </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m5.jpg" alt="">
+          
+            <div class="cards">
+                <h3>Card 4</h3>
+                <div>
+                    <p>Descrição do card 4.</p>
+                    <span>Preço do plano</span>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
+                    </div>
                 </div>
-                <h3>Aquaman</h3>
-                <span>120 min | Hérois</span>
             </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m6.jpg" alt="">
+            <div class="cards">
+                <h3>Card 5</h3>
+                <div>
+                    <p>Descrição do card 5.</p>
+                    <span>Preço do plano</span>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
+                    </div>
                 </div>
-                <h3>Pantera Negra</h3>
-                <span>120 min | Hérois</span>
             </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m7.jpg" alt="">
+            <div class="cards">
+                <h3>Card 6</h3>
+                <div>
+                    <p>Descrição do card 6.</p>
+                    <span>Preço do plano</span>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
+                    </div>
                 </div>
-                <h3>Thor</h3>
-                <span>120 min | Hérois</span>
             </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m8.png" alt="">
+            <div class="cards">
+                <h3>Card 7</h3>
+                <div>
+                    <p>Descrição do card 7.</p>
+                    <span>Preço do plano</span>
+                    <div class="cards-button">
+                        <button id="">Escolha seu Plano</button>
+                    </div>
                 </div>
-                <h3>Bumblebee</h3>
-                <span>120 min | Ação</span>
-            </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m9.jpg" alt="">
-                </div>
-                <h3>Mortal Engines</h3>
-                <span>120 min | Ficcção Ciêntifica</span>
-            </div>
-
-            <div class="box">    
-                <div class="box-img">
-                    <img src="files/img/cards/m10.jpg" alt="">
-                </div>
-                <h3>UnderWorld Blood Wars</h3>
-                <span>120 min | Ação</span>
             </div>
         </div>
-</section>
+    </main>
 
-<section class="coming" id="coming">
-    <h2 class="heading">Em breve</h2>
-
-    <div class="coming-container swiper">
-       <div class="swiper-wrapper">
-           
-           <div class="swiper-slide box">
-               <div class="box-img">
-                   <img src="files/img/cards/coming1.jpg" alt="">
-               </div>
-               <h3>Johnny English</h3>
-               <span>120 min | Ação</span>
-           </div>
-                
-               
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming2.jpg" alt="">
-           </div>
-           <h3>Warcraft: O Primeiro Encontro de Dois Mundos</h3>
-           <span>120 min | Fantasia</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming3.jpg" alt="">
-           </div>
-           <h3>Rampage - Fora de Controle</h3>
-           <span>120 min | Aventura</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming4.jpg"alt="">
-           </div>
-           <h3>A Dama de Ferro</h3>
-           <span>120 min | Ação</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming5.jpg"alt="">
-           </div>
-           <h3>Liga da Justiça</h3>
-           <span>120 min | Hérois</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming6.jpeg"alt="">
-           </div>
-           <h3>Doutor Estranho</h3>
-           <span>120 min | Hérois</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming7.jpg" alt="">
-           </div>
-           <h3>Capitã Marvel</h3>
-           <span>120 min | Hérois</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming8.jpg" alt="">
-           </div>
-           <h3>Viúva Negra</h3>
-           <span>120 min | Hérois</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming9.jpg" alt="">
-           </div>
-           <h3>Homem-Formiga</h3>
-           <span>120 min | Hérois</span>
-               </div>
-           
-               <div class="swiper-slide box">
-           <div class="box-img">
-               <img src="files/img/cards/coming10.jpg" alt="">
-           </div>
-           <h3>Guardiões da Galaxia</h3>
-           <span>120 min | Hérois</span>
+    <section class="catalogo">
+        <h2>DESCUBRA O MELHOR DE</h2>
+        <div class="catalogo-container">
+            <div class="catalogo-card">
+                <img src="files/img/filme1.png" alt="Filme 1">
+                <h3>Filme 1</h3>
             </div>
-
-            
-            <div class="swiper-slide box">
-                <div class="box-img">
-                    <img src="files/img/cards/coming11.jpg" alt="">
-                </div>
-                <h3>Velozes e Furiosos 9</h3>
-                <span>120 min | Ação</span>
-                 </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme2.png" alt="Filme 2">
+                <h3>Filme 2</h3>
+            </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme3.png" alt="Filme 3">
+                <h3>Filme 3</h3>
+            </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme4.png" alt="Filme 4">
+                <h3>Filme 4</h3>
+            </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme5.png" alt="Filme 5">
+                <h3>Filme 5</h3>
+            </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme6.png" alt="Filme 6">
+                <h3>Filme 6</h3>
+            </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme7.png" alt="Filme 7">
+                <h3>Filme 7</h3>
+            </div>
+            <div class="catalogo-card">
+                <img src="files/img/filme8.png" alt="Filme 8">
+                <h3>Filme 8</h3>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="newsletter" id="newsletter">
-    <h2 class="heading">CineMundo</h2>
-    <h2>Inscreva-se para receber as últimas notícias <br>
-        sobre filmes e séries</h2>
-    <form action="">
-        <input type="email" class="email" placeholder="Digite seu email" required>
-        <button type="submit" value="Subscribe" class="btn">Inscrever-se</button>
-    </form>
-</section>
-</main>    
-<footer>
-    <address>
-        <p>Spider Movies<br>
-            <a href="#" class="gmail">SpiderMovies@suport.com.br</a>
-    </address>
-    
-    <p>Siga-nos em:
-
-        <a href="https://www.facebook.com" target="_blank" class="social"><i class='bx bxl-facebook'></i>Facebook</a> |
-        <a href="https://www.twitter.com" target="_blank" class="social"><i class='bx bxl-twitter'></i>Twitter</a> |
-        <a href="https://www.instagram.com" target="_blank" class="social"><i class='bx bxl-instagram'></i>Instagram</a>
-    </p>
-</footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
-
+    <footer>
+        <p>&copy; 2023 Spider Movies. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>

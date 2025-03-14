@@ -17,10 +17,9 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ## Print do esboço criada
 
 <<  COLOQUE A IMAGEM AQUI >>
-![alt text](image-4.png)
+![alt text](image.png)
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
-![alt text](image-2.png)
-![alt text](image-3.png)
+![gitgg](image-1.png)
