@@ -12,13 +12,14 @@
 }
 
 :root {
-  --main-color: #ff2c1f;
-  --text-colo: #020307;
+  --main-color: #002be7;
+  --text-colo: #07071c;
   --bg-color: #fff;
+
 }
 
 body {
-  background: #020307;
+  background: #07071c;
   background-image: url(files/img/cards/login.jpg.jfif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +39,7 @@ header {
   justify-content: space-between;
   padding: 20px 100px;
   transition: 0.5s;
-  background: #020307;
+  background: var(--text-colo);
 }
 
 
@@ -62,7 +63,7 @@ header {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background: #020307b7;
+  background: #070206b7;
 
 }
 
@@ -108,7 +109,7 @@ header {
 }
 .btn:hover{
   background: #fff;
-  color: #ff2c1f;
+  color: var(--main-color);
 } 
 
 .btn2{
@@ -139,7 +140,7 @@ header {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #020307;
+  background-color: var(--text-colo);
   color: white;
 }
 

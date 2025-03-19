@@ -12,16 +12,17 @@
 }
 
 :root {
-  --main-color: #ff2a1ff1;
-  --text-colo: #020307;
+  --main-color: #002be7;
+  --text-colo: #07071c;
   --bg-color: #fff;
 
 }
 
 body {
-  background: #020307;
+  background: #07071c;
   color: var(--bg-color);
 }
+
 section{
   padding: 4.5rem 0 1.5rem;
 
@@ -99,7 +100,7 @@ header {
 }
 .btn:hover{
   background: #fff;
-  color: #ff2c1f;
+  color: var(--text-colo);
 }  
 .conatiner{
   width: 100%;
@@ -253,7 +254,7 @@ text-transform: uppercase;
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #020307;
+  background-color: var(--text-colo);
   color: white;
 }
 

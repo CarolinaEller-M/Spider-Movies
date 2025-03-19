@@ -12,16 +12,17 @@
 }
 
 :root {
-    --main-color: #ff2c1f;
-    --text-color: #020307;
+    --main-color: #002be7;
+    --text-colo: #07071c;
     --bg-color: #fff;
-}
+  
+  }
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    background: #020307;
+    background: #000000;
     color: var(--bg-color);
 }
 
@@ -200,7 +201,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: #020307;
+    background-color: var(--text-colo);
     color: white;
     margin-top: auto;
 }
