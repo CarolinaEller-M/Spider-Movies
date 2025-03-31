@@ -118,17 +118,6 @@ header {
   object-position: center;
   z-index: -1;
 }
-.swiper-pagination-bullet{
-  width: 6px !important;
-  height: 6px !important;
-  border-radius: 0.2rem !important;
-  background: var(--bg-color) !important;
-  opacity: 1 !important;
-}
-.swiper-pagination-bullet-active{
-  width: 1.5rem !important;
-  background: var(--main-color) !important;
-}
 .home-text{
   position: absolute;
   left: 30%; 
@@ -193,19 +182,16 @@ header {
 }
 
 .coming-container{
-  display: grid;
-  gap: 1rem;
-  max-width: 968px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 2rem;
-}
-.coming-container .box-img img:hover{
-  transform: translateY(0); 
-}
-.coming-container .box{
-  width: 100px;
-}
+    max-width: 968px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+
 .newsletter{
   max-width: 968px;
   margin-left: auto;
